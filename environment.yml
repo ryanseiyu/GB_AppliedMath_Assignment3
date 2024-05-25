@@ -1,0 +1,8 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - flake8
+  - pytest
+  - numpy
+  - pytorch # 'torch' package is named 'pytorch' in Conda
